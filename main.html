@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/styles/reset.css">
+  <link rel="stylesheet" href="./src/styles/globalStyles.css">
+  <link rel="stylesheet" href="./src/styles/heading.css">
+  <link rel="stylesheet" href="./src/styles/vitrine.css">
+  <link rel="stylesheet" href="./src/styles/aside.css">
+  <link rel="stylesheet" href="./src/styles/cart.css">
+  <script type="module" src="./src/scripts/render.js"></script>
+  <script type="module" src="./src/scripts/products.js"></script>
+  <script type="module" src="./src/scripts/data.js"></script>
+  <script type="module" src="./src/scripts/cart.js"></script>
+  <script type="module" src="./src/scripts/filter.js"></script>
+  <title>Vitrine</title>
+</head>
+
+<body>
+  <header class="heading">
+    <h1 class="heading__title">Vitrine</h1>
+    <div class="heading__menu">
+      <p class="heading__menu__item" id="filter__all">Todos</p>
+      <p class="heading__menu__item" id="filter__acessory">Acessórios</p>
+      <p class="heading__menu__item" id="filter__shoes">Calçados</p>
+      <p class="heading__menu__item" id="filter__shirt">Camisetas</p>
+    </div>
+  </header>
+  <div class="main">
+    <div class="vitrine" id="vitrine__container">
+    </div>
+    <aside class="aside__content">
+      <form action="" class="aside__search">
+        <input type="text" class="aside__input" id="search__input" placeholder="Digite aqui sua busca">
+        <button type="submit" class="aside__button" id="search__button">Pesquisar</button>
+      </form>
+      <div class="cart">
+        <div class="cart__title__container">
+          <p>Carrinho de compras</p>
+        </div>
+        <div class="cart__content">
+        </div>
+        <div class="cart__final">
+          <p class="cart__quantity"></p>
+          <p class="cart__total"></p>
+        </div>
+      </div>
+    </aside>
+  </div>
+</body>
+
+</html>

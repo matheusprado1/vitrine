@@ -1,0 +1,39 @@
+.aside__content {
+  margin-top: 52px;
+  margin-right: 15px;
+}
+
+.aside__search {
+  display: flex;
+  align-items: center;
+  max-width: 344px;
+}
+
+.aside__input {
+  width: 246px;
+  height: 52px;
+  border: 1px solid var(--grey-0);
+  background-color: var(--grey-0);
+}
+
+.aside__input::placeholder {
+  padding-left: 10px;
+}
+
+.aside__input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.aside__button {
+  width: 96px;
+  height: 55px;
+  background-color: var(--color-secondary);
+  color: #fff;
+  border-style: none;
+  margin-left: 8px;
+}
+
+.aside__button:hover {
+  background-color: var(--color-primary);
+  cursor: pointer;
+}
