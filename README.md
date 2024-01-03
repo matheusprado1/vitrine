@@ -6,9 +6,8 @@ Este projeto é uma vitrine virtual criada utilizando apenas HTML, JavaScript e 
 
 ## Funcionalidades
 
-1. **Adicionar ao Carrinho**: Os usuários podem adicionar produtos ao carrinho de compras.
+1. **Adicionar e remover produtos ao carrinho**: Os usuários podem adicionar e remover produtos ao carrinho de compras.
 2. **Filtragem de Produtos**: Os usuários podem pesquisar produtos usando palavras-chave. Além disso, os produtos podem ser filtrados por categorias.
-3. **Manipulação de DOM**: Este projeto utiliza manipulação de DOM para atualizar dinamicamente a interface do usuário.
 
 ## Tecnologias Utilizadas
 
